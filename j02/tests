@@ -1,0 +1,41 @@
+$> ./another_world.php "Cette   phrase   contient des espaces et        des      tabulations"
+Cette phrase contient des espaces et des tabulations
+$> ./another_world.php
+$> ./another_world.php "  Ce param   est        traite  " "mais pas celui   la"
+Ce param est traite
+
+
+
+> ls
+photos.php
+$> ./photos.php "http://www.42.fr"
+$> ls
+photos.php
+www.42.fr/
+$> ls www.42.fr/
+logo42-site.gif
+$>
+
+
+ex05
+$> ./deni.php data.csv pseudo
+Entrez votre commande: echo $nom['miawallace']."\n";
+Naline
+Entrez votre commande: ^D
+$> ./deni.php data.csv
+$> ./deni.php invalid_file pseudo
+$> ./deni.php data.csv invalid_header_key
+
+$> cat > test.srt
+1
+00:01:15,308 --> 00:01:16,717
+Ceci
+2
+00:01:21,473 --> 00:01:23,614
+test
+3
+00:01:19,750 --> 00:01:21,373
+un
+4
+00:01:16,817 --> 00:01:19,650
+est ^D

@@ -1,0 +1,42 @@
+ 
+ .main{
+    color: black;
+    min-height: 3vh;
+    min-width: 3vw;
+  }
+ 
+ .element {
+  position: relative;
+      height: 6vh;
+      width: 5vw;
+      border: 0px solid black;
+     
+  }
+  .hidden {
+  position: relative; 
+      height: 6vh;
+      width: 5vw;
+ }
+ .elem_weight {
+      position: inherit;
+      margin: 4%;
+      text-align: right;
+      font-size: 1vw;
+      margin-right: 5%;
+}
+ .elem_symbol {
+      position: inherit;
+      text-align: center;
+      font-size: 2vw;
+}
+.elem_number {
+      position: inherit;
+      margin-left: 5%;
+      text-align: left;
+      font-size: 1vw;
+      bottom: 10%;
+}
+   h2{
+      margin: 0;
+      font-size: 1vw;
+    }
