@@ -1,0 +1,41 @@
+vdo DOM
+
+site google.fr
+console
+
+
+alert('test');
+undefined
+var my_element = document.getElementById('lga');
+undefined
+my_element.get
+undefined
+my_element.getA
+undefined
+my
+VM2710:1 Uncaught ReferenceError: my is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2710:1
+my_element.getAttribute('id')
+"lga"
+var new_element = document.createElement('span');
+undefined
+new_element.setAttribute('style', 'background: red;');
+undefined
+new_element.innerHTML('hello world'');
+VM2993:1 Uncaught SyntaxError: Invalid or unexpected token
+new_element.innerHTML('hello world');
+VM2994:1 Uncaught TypeError: new_element.innerHTML is not a function
+    at <anonymous>:1:13
+(anonymous) @ VM2994:1
+var_text = document.createTextNode('Hello World');
+"Hello World"
+new_element.appendChild(var_text);
+"Hello World"
+my_element.appendChild(new_element);
+<span style=​"background:​ red;​">​Hello World​</span>​
+my_element.removeChild(new_element);
+<span style=​"background:​ red;​">​Hello World​</span>​
+
+W3school
+Javascript HTML DOM
